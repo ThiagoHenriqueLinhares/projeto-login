@@ -6,6 +6,7 @@
 
     #login {
         width: 80vw;
+        height: 280px;
     }
 
     #imagem {
@@ -19,6 +20,44 @@
         width: 70%;
     }
 
+    #entrar {
+        position: absolute;
+        top: 65%;
+        left: 32%;
+        width: 66%;
+    }
+
+    #esenha {
+        position: absolute;
+        top: 81%;
+        left: 32%;
+        width: 66%;
+    }
+
+    .campo1 {
+        position: absolute;
+        top: 32%;
+        left: 31%;
+        width: 67%;
+        height: 40px;
+    }
+
+    .campo2 {
+        position: absolute;
+        top: 47%;
+        left: 31%;
+        width: 67%;
+        height: 40px;
+    }
+
+    #iemail {
+        width: 89%;
+    }
+
+    #isenha {
+        width: 89%;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -29,6 +68,7 @@
 
     #login {
         width: 950px;
+        height: 350px;
     }
 
     #imagem {
@@ -48,6 +88,34 @@
 
     p {
         font-size: 1.2em;
+    }
+
+    #entrar {
+        position: absolute;
+        top: 67%;
+        left: 1%;
+        width: 48%;
+    }
+
+    #esenha {
+        position: absolute;
+        top: 80%;
+        left: 1%;
+        width: 48%;
+    }
+
+    .campo1 {
+        position: absolute;
+        top: 41%;
+        left: 1%;
+        width: 47%;
+    }
+
+    .campo2 {
+        position: absolute;
+        top: 53%;
+        left: 1%;
+        width: 47%;
     }
 
 }
